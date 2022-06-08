@@ -1,0 +1,17 @@
+name: mrep
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+  - pytorch3d
+dependencies:
+  - python=3.9.11
+  - numpy=1.21.2
+  - pytorch=1.10.0
+  - pytorch3d=0.6.1
+  - trimesh=3.10.7
+  - matplotlib=3.5.1
+  - scipy=1.7.3
+  - pip
+  - pip:
+      - pytest
